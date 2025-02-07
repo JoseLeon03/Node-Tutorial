@@ -1,0 +1,21 @@
+{
+  "name": "clase-2",
+  "version": "1.0.0",
+  "main": "1.http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon 2.routing.js",
+    "dev2": "node --watch 3.express.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLeon03/Node-Tutorial.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs"
+  ],
+  "author": "Jose Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLeon03/Node-Tutorial/issues"
+  },
+  "homepage": "https://github.com/JoseLeon03/Node-Tutorial#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
