@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../utils.js'
+import { readJSON } from '../../utils.js'
 
 const movies = readJSON('./movies.json')
 
@@ -10,6 +10,7 @@ export class MovieModel {
   static getALL = async ({ genre }) => { // Este metodo es para obtener todas las peliculas
     if (genre) {
       const filteredMovies = movies.filter(
+        // movie => movie.genre.some(g => g.toLowerCase() === genre.toLowerCase())
         movie => Array.isArray(movie.genre) && movie.genre.some(g => g.toLowerCase() === genre.toLowerCase())
       )
       return filteredMovies

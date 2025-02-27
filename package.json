@@ -15,5 +15,8 @@
   },
   "eslintConfig": {
     "extends": "standard"
+  },
+  "dependencies": {
+    "mysql2": "^3.12.0"
   }
 }
