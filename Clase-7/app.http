@@ -1,0 +1,32 @@
+### Login
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "admin2",
+    "password": "123456"
+}
+
+### Register
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "admin2",
+    "password": "123456"
+    
+}
+
+### Logout
+POST http://localhost:8080/logout
+Content-Type: application/json
+
+{
+}
+
+### Protected
+GET http://localhost:8080/protected
+
+{
+}
+
